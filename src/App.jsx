@@ -21,7 +21,7 @@ export default class App extends Component {
         return (
             <div className="container">
                 <Search updateAppState={this.updateAppState} />
-                <List users={this.state.users} isFirst={this.state.isFirst} isLoading={this.state.isLoading} err={this.state.err} />
+                <List {...this.state} />
             </div>
         )
     }
