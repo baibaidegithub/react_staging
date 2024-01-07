@@ -7,4 +7,4 @@
         1.【父组件】给【子组件】传递数据：通过props传递
         2.【子组件】给【父组件】传递数据：通过props传递，要求父提前给子传递一个函数
     4.注意defaultChecked和checked的区别，类似的还有：defaultValue和value（defaultChecked只能在第一次初始化时起作用，只能改变一次，checked之后状态也可以被修改）
-    5.状态在哪里，操作状态的方法就在哪里
+    5.状态在哪里，操作状态的方法就在哪里# react_staging
